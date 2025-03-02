@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psych Trivia Challenge</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="images/pineapple.svg" alt="Pineapple Logo">
+                <h1>Psych Trivia Challenge</h1>
+            </div>
+            <div class="tagline">"You know that's right!"</div>
+        </header>
+
+        <main>
+            <div id="welcome-screen" class="screen active">
+                <h2>Welcome, Psychos!</h2>
+                <p>Test your knowledge of USA Network's hit show Psych in this ultimate fan trivia challenge.</p>
+                <p class="instructions">Answer 10 random questions about characters, mysteries, running jokes, and surprising facts from the show.</p>
+                <button id="start-btn" class="btn">I Know, You Know</button>
+            </div>
+
+            <div id="question-screen" class="screen">
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <div id="progress" class="progress"></div>
+                    </div>
+                    <div class="question-counter">
+                        <span id="current-question">1</span>/<span id="total-questions">10</span>
+                    </div>
+                </div>
+                
+                <div class="category-badge" id="question-category">Characters</div>
+                
+                <div class="question-container">
+                    <h3 id="question-text">What childhood trauma created Shawn's fear of clowns?</h3>
+                </div>
+                
+                <div class="answers-container" id="answers">
+                    <!-- Answers will be inserted here by JavaScript -->
+                </div>
+            </div>
+
+            <div id="result-screen" class="screen">
+                <h2>You've Heard It Both Ways!</h2>
+                <div class="score-container">
+                    <div class="score">
+                        <span id="score">0</span>/<span id="max-score">10</span>
+                    </div>
+                    <div id="score-message">Come on, son!</div>
+                </div>
+                
+                <div class="stats-container">
+                    <h3>Your Psych Profile:</h3>
+                    <div id="category-stats">
+                        <!-- Category stats will be inserted here by JavaScript -->
+                    </div>
+                </div>
+                
+                <button id="play-again-btn" class="btn">Play Again</button>
+            </div>
+        </main>
+
+        <footer>
+            <p>Created with 🍍 for Psych fans everywhere</p>
+        </footer>
+    </div>
+
+    <script src="questions.js"></script>
+    <script src="app.js"></script>
+</body>
+</html> 

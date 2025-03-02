@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Pineapple Crown -->
+  <path d="M256 0 L226 50 L256 80 L286 50 Z" fill="#348c14"/>
+  <path d="M196 30 L176 70 L216 90 L226 50 Z" fill="#348c14"/>
+  <path d="M316 30 L336 70 L296 90 L286 50 Z" fill="#348c14"/>
+  <path d="M166 60 L146 100 L186 110 L196 70 Z" fill="#348c14"/>
+  <path d="M346 60 L366 100 L326 110 L316 70 Z" fill="#348c14"/>
+  
+  <!-- Pineapple Body -->
+  <ellipse cx="256" cy="280" rx="120" ry="200" fill="#ffd700"/>
+  
+  <!-- Pineapple Pattern -->
+  <g fill="#54f904">
+    <!-- Row 1 -->
+    <circle cx="196" cy="130" r="10"/>
+    <circle cx="226" cy="130" r="10"/>
+    <circle cx="256" cy="130" r="10"/>
+    <circle cx="286" cy="130" r="10"/>
+    <circle cx="316" cy="130" r="10"/>
+    
+    <!-- Row 2 -->
+    <circle cx="181" cy="160" r="10"/>
+    <circle cx="211" cy="160" r="10"/>
+    <circle cx="241" cy="160" r="10"/>
+    <circle cx="271" cy="160" r="10"/>
+    <circle cx="301" cy="160" r="10"/>
+    <circle cx="331" cy="160" r="10"/>
+    
+    <!-- Row 3 -->
+    <circle cx="166" cy="190" r="10"/>
+    <circle cx="196" cy="190" r="10"/>
+    <circle cx="226" cy="190" r="10"/>
+    <circle cx="256" cy="190" r="10"/>
+    <circle cx="286" cy="190" r="10"/>
+    <circle cx="316" cy="190" r="10"/>
+    <circle cx="346" cy="190" r="10"/>
+    
+    <!-- Row 4 -->
+    <circle cx="166" cy="220" r="10"/>
+    <circle cx="196" cy="220" r="10"/>
+    <circle cx="226" cy="220" r="10"/>
+    <circle cx="256" cy="220" r="10"/>
+    <circle cx="286" cy="220" r="10"/>
+    <circle cx="316" cy="220" r="10"/>
+    <circle cx="346" cy="220" r="10"/>
+    
+    <!-- Row 5 -->
+    <circle cx="166" cy="250" r="10"/>
+    <circle cx="196" cy="250" r="10"/>
+    <circle cx="226" cy="250" r="10"/>
+    <circle cx="256" cy="250" r="10"/>
+    <circle cx="286" cy="250" r="10"/>
+    <circle cx="316" cy="250" r="10"/>
+    <circle cx="346" cy="250" r="10"/>
+    
+    <!-- Row 6 -->
+    <circle cx="166" cy="280" r="10"/>
+    <circle cx="196" cy="280" r="10"/>
+    <circle cx="226" cy="280" r="10"/>
+    <circle cx="256" cy="280" r="10"/>
+    <circle cx="286" cy="280" r="10"/>
+    <circle cx="316" cy="280" r="10"/>
+    <circle cx="346" cy="280" r="10"/>
+    
+    <!-- Row 7 -->
+    <circle cx="166" cy="310" r="10"/>
+    <circle cx="196" cy="310" r="10"/>
+    <circle cx="226" cy="310" r="10"/>
+    <circle cx="256" cy="310" r="10"/>
+    <circle cx="286" cy="310" r="10"/>
+    <circle cx="316" cy="310" r="10"/>
+    <circle cx="346" cy="310" r="10"/>
+    
+    <!-- Row 8 -->
+    <circle cx="166" cy="340" r="10"/>
+    <circle cx="196" cy="340" r="10"/>
+    <circle cx="226" cy="340" r="10"/>
+    <circle cx="256" cy="340" r="10"/>
+    <circle cx="286" cy="340" r="10"/>
+    <circle cx="316" cy="340" r="10"/>
+    <circle cx="346" cy="340" r="10"/>
+    
+    <!-- Row 9 -->
+    <circle cx="181" cy="370" r="10"/>
+    <circle cx="211" cy="370" r="10"/>
+    <circle cx="241" cy="370" r="10"/>
+    <circle cx="271" cy="370" r="10"/>
+    <circle cx="301" cy="370" r="10"/>
+    <circle cx="331" cy="370" r="10"/>
+    
+    <!-- Row 10 -->
+    <circle cx="196" cy="400" r="10"/>
+    <circle cx="226" cy="400" r="10"/>
+    <circle cx="256" cy="400" r="10"/>
+    <circle cx="286" cy="400" r="10"/>
+    <circle cx="316" cy="400" r="10"/>
+  </g>
+</svg> 
