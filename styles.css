@@ -241,10 +241,22 @@ main {
 
 .source-info {
     font-size: 0.9rem;
-    font-style: italic;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background-color: var(--light-green);
+    border-radius: 8px;
     color: var(--dark-green);
     display: none;
+    text-align: left;
+}
+
+.source-info p {
+    margin-bottom: 0.5rem;
+}
+
+.source-info p:last-child {
+    margin-bottom: 0;
+    font-style: italic;
 }
 
 /* Result Screen */

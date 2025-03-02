@@ -125,10 +125,13 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
         
-        // Show source information
+        // Show source and explanation information
         const sourceInfo = document.createElement('div');
         sourceInfo.classList.add('source-info');
-        sourceInfo.textContent = `Source: ${currentQuestion.source}`;
+        sourceInfo.innerHTML = `
+            <p><strong>Source:</strong> ${currentQuestion.source}</p>
+            <p>${currentQuestion.explanation}</p>
+        `;
         sourceInfo.style.display = 'block';
         answersContainer.appendChild(sourceInfo);
         
@@ -150,7 +153,7 @@ document.addEventListener('DOMContentLoaded', () => {
             } else {
                 showResults();
             }
-        }, 2000);
+        }, 2500);
     }
 
     // Show results screen
